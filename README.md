@@ -53,7 +53,7 @@ To use this starter, you will need a new or existing [Kontent.ai project][] and 
 
 1. **Open the source code and start editing**
 
-## Deploy your site
+## Deploy your site to Gatsby Cloud
 
 Once your content is available in Kontent.ai, deploy your site to [Gatsby Cloud](https://gatsbyjs.com/products/cloud):
 
@@ -67,7 +67,6 @@ For a more detailed walkthrough, see the tutorial on how to [build your site wit
 
 [gatsby cloud dashboard]: https://gatsbyjs.com/dashboard
 [tutorial]: https://www.gatsbyjs.com/docs/tutorial/part-1/#build-your-site-with-gatsby-cloud
-
 ### Deploy without using the CLI
 
 Alternatively, you can deploy this starter directly to Gatsby Cloud.
@@ -80,6 +79,18 @@ Note that you will need to set up your content in Kontent.ai manually.
 
 To use Gatsby Cloud Preview with this site, follow the instructions in the
 [Connecting to Kontent.ai](https://support.gatsbyjs.com/hc/en-us/articles/360052324654-Connecting-to-Kontent).
+
+## Deploy your site to Netlify
+
+Alternatively, you can deploy your site to Netlify.
+
+1. Push your local site to a new repo in either GitHub, GitLab, or Bitbucket
+1. Log into your [Netlify Dashboard][] and click on **Add new site**
+2. Use the **Import an existing project** option to find your site
+3. Add the environment variables from your `.env.production` file to Netlify during setup
+4. Click **Trigger deploy** and your site should start building
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/joechoi-git/gatsby-starter-kontent-ai-homepage)
 
 ## What's included?
 
