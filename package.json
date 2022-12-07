@@ -7,24 +7,24 @@
   "scripts": {
     "start": "gatsby develop",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --no-uglify --verbose --log-pages",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "setup": "node ./scripts/setup.js"
   },
   "dependencies": {
-    "@kontent-ai/gatsby-source": "9.0.1",
-    "@kontent-ai/gatsby-components": "9.0.1",
-    "gatsby-plugin-manifest": "^4.7.0",
-    "uuid": "^8.3.2",
     "@fontsource/dm-mono": "^4.5.9",
     "@fontsource/dm-sans": "^4.5.8",
+    "@kontent-ai/gatsby-components": "9.0.1",
+    "@kontent-ai/gatsby-source": "9.0.1",
     "@vanilla-extract/babel-plugin": "^1.2.0",
     "@vanilla-extract/css": "^1.9.0",
     "@vanilla-extract/css-utils": "^0.1.2",
     "@vanilla-extract/webpack-plugin": "^2.1.12",
     "gatsby": "^5.0.0",
     "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-manifest": "^4.7.0",
+    "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-sharp": "^5.0.0",
     "gatsby-plugin-vanilla-extract": "^2.0.1",
     "gatsby-source-contentful": "^8.0.0",
@@ -34,15 +34,16 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-feather": "^2.0.9",
-    "sharp": "^0.30.5"
+    "sharp": "^0.30.5",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@kontent-ai/backup-manager": "4.0.1",
     "chalk": "4",
-    "inquirer": "^8.2.0",
-    "yargs-parser": "^21.0.0",
-    "prettier": "2.5.1",
     "husky": "^7.0.4",
-    "lint-staged": "^12.3.5"
+    "inquirer": "^8.2.0",
+    "lint-staged": "^12.3.5",
+    "prettier": "2.5.1",
+    "yargs-parser": "^21.0.0"
   }
 }
