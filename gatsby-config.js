@@ -15,6 +15,15 @@ module.exports = {
       options: {
         projectId: process.env.KONTENT_PROJECT_ID,
         languageCodenames: [`en-US`],
+        usePreviewUrl: !!(
+          process.env.KONTENT_PREVIEW_ENABLED &&
+          process.env.KONTENT_PREVIEW_ENABLED.toLowerCase() === 'true'
+        ),
+        authorizationKey:
+          process.env.KONTENT_PREVIEW_ENABLED &&
+          process.env.KONTENT_PREVIEW_ENABLED.toLowerCase() === 'true'
+            ? process.env.KONTENT_PREVIEW_KEY
+            : undefined,
       },
     },
     "gatsby-plugin-sharp",
