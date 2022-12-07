@@ -86,10 +86,11 @@ Alternatively, you can deploy your site to Netlify.
 
 1. Push your local site to a new repo in either GitHub, GitLab, or Bitbucket
 1. Log into your [Netlify Dashboard][] and click on **Add new site**
-2. Use the **Import an existing project** option to find your site
-3. Add the environment variables from your `.env.production` file to Netlify during setup
-4. Click **Trigger deploy** and your site should start building
+1. Use the **Import an existing project** option to find your site
+1. Add the environment variables from your `.env.production` file to Netlify during setup
+1. Click **Trigger deploy** and your site should start building
 
+[netlify dashboard]: https://app.netlify.com
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/joechoi-git/gatsby-starter-kontent-ai-homepage)
 
 ## What's included?
