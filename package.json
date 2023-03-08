@@ -13,10 +13,10 @@
     "setup": "node ./scripts/setup.js"
   },
   "dependencies": {
-    "@kontent-ai/gatsby-source": "9.0.1",
-    "@kontent-ai/gatsby-components": "9.0.1",
-    "gatsby-plugin-manifest": "^4.7.0",
-    "uuid": "^8.3.2",
+    "@kontent-ai/gatsby-source": "10.0.0",
+    "@kontent-ai/gatsby-components": "10.0.0",
+    "gatsby-plugin-manifest": "5.0.0",
+    "uuid": "^9.0.0",
     "@fontsource/dm-mono": "^4.5.9",
     "@fontsource/dm-sans": "^4.5.8",
     "@vanilla-extract/babel-plugin": "^1.2.0",
